@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;DigitL_Elevator/Software Specification/Software components&apos;" deleteContents="false" description="Delete resource &apos;DigitL_Elevator/Software Specification/Software components&apos;" element1="/DigitL_Elevator/Software Specification/Software components" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1579359697583"/>
-</session>
