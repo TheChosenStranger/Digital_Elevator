@@ -8,11 +8,11 @@ CONTENT TABLE
 2.1. Functionalities of this project                                       
 2.2. Flow chart describe the Hardware interaction          
 3. Digital Elevator requirements specification                              
-3.1. Req__CYRS_100_V1.0                                                    
-3.2. Req__CYRS_200_V1.0
-3.3. Req__CYRS_300_V1.0
-3.4. Req__CYRS_400_V1.0
-3.5. Req__CYRS_500_V1.0
+3.1. Req_AKRAM_CYRS_100_V1.0                                                    
+3.2. Req_AKRAM_CYRS_200_V1.0
+3.3. Req_AKRAM_CYRS_300_V1.0
+3.4. Req_AKRAM_CYRS_400_V1.0
+3.5. Req_AKRAM_CYRS_500_V1.0
 
 
 
@@ -43,20 +43,17 @@ VersionAuthorDateChange descriptionV1.0Donia Mohamed21/1/2020The initial 
 
 PROJECT DESCRIPTION
 This project aims to have a digital Elevator and also support lock system to be more secure and have many functionalities like:
-* Lock system  when calling the elevator 
+* Lock system when calling the elevator 
+* The elevator needs username and password from the user to access the elevator 
+* If the user entered for the first time so must sign by username and password 
+* If user ID already exist so he must enter his ID to access the elevator and he has max three trials 
+* If the ID is not correct so user cannot able to access the elevator 
+* If the ID is correct so can access the elevator  
 * Up and down movement 
+* If the user entered the ID correct so can use two buttons to go up and down 
 * On and off to elevator 
 * Reset elevator to normal mode 
-
-
-
-
-
-
-
-
-
-
+* If the user pressed the up/down button for 2 sec the elevator will be reset 
 
 
 
@@ -89,19 +86,19 @@ FLOW CHART DESCRIBE HARDWARE INTERACTION
 
 
 DIGITAL ELEVATOR REQUIREMENTS SPECIFICATION
-Req__CYRS_100_V1.0
+Req_AKRAM_CYRS_100_V1.0
 {
 	This requirement describe the max number of users can access the Elevator,
 It must be 10 users maximum
 }
-Req__CYRS_200_V1.0
+Req_AKRAM_CYRS_200_V1.0
 {
 This requirement to set the limitation of each user name when he set your username and    password for the first time 
 1) User name must be First name by max 10 character 
 2) The new password must be 4 digits
 3) When the user enter setting the ID is already taken system will ask him about another one
 }
-Req__CYRS_300_V1.0
+Req_AKRAM_CYRS_300_V1.0
 {
 	This requirement describe the behavior of elevator when the user enter ID correct 
 1) when pass the given ID correct the LCD will display OK 
@@ -111,13 +108,13 @@ Req__CYRS_300_V1.0
 
 
 
-Req__CYRS_400_V1.0
+Req_AKRAM_CYRS_400_V1.0
 {
 	This requirement describe the behavior of elevator when the user enter ID not correct
 1) The user has max 3 trials 
 2) If the 3 trails not correct the LCD will display NOK and buzzer will fire
 }
-Req__CYRS_500_V1.0
+Req_AKRAM_CYRS_500_V1.0
 {
 	This requirement describe the reset functionality 
 	A reset for whole system is done when pressing on/off button for 2 sec
